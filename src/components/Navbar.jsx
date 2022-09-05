@@ -37,6 +37,12 @@ const SearchContainer = styled.div`
 
 const SearchInput = styled.input`
   border: none;
+  &:hover {
+    //your code
+  }
+  &:focus {
+    outline: none;
+  }
 `;
 
 const Center = styled.div`
